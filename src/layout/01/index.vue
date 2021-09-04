@@ -84,7 +84,7 @@ export default {
         <!-- Sidebar component, swap this element with another sidebar if you like -->
         <div class="flex flex-col flex-grow pt-5 pb-4 overflow-y-auto">
           <div class="flex items-center flex-shrink-0 px-4">
-            <img class="h-18 w-auto" src="@/assets/logo.png" v-bind:alt="$app.name" v-bind:title="$app.name" />
+            <img class="h-18 w-auto" src="@/assets/logo_inline_white.svg" v-bind:alt="$app.name" v-bind:title="$app.name" />
           </div>
           <div class="mt-5 flex-1 flex flex-col">
             <navigation type="desktop" />

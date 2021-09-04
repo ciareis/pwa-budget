@@ -2,9 +2,9 @@
   <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-md w-full space-y-8">
       <div>
-        <img class="mx-auto h-30 w-auto" src="@/assets/logo.png" v-bind:alt="$app.name" v-bind:title="$app.name" />
+        <img class="mx-auto h-40 w-auto" src="@/assets/logo_rectangle_with_text.svg" v-bind:alt="$app.name" v-bind:title="$app.name" />
         <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-          Informe seus dados baixo
+          Informe seus dados abaixo
         </h2>
       </div>
       <form v-on:submit.prevent="doLogin" class="mt-8 space-y-6" action="#" method="POST">
