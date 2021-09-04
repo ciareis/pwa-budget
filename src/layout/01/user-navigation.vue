@@ -42,7 +42,7 @@ export default {
   <!-- Profile dropdown -->
   <Menu as="div" class="ml-3 relative">
     <div>
-      <MenuButton data-testid="username" class="max-w-xs bg-white flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+      <MenuButton data-testid="username" class="max-w-xs bg-white flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
         <span class="sr-only">Open user menu</span>
         {{ userFirstName }} &nbsp;&nbsp; <img class="h-8 w-8 rounded-full" src="@/assets/profile.png" v-bind:alt="userFirstName" v-bind:title="userFirstName" />
       </MenuButton>

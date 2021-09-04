@@ -94,7 +94,7 @@ export default {
     </div>
     <div class="flex flex-col w-0 flex-1 overflow-hidden">
       <div class="relative z-10 flex-shrink-0 flex h-16 bg-white shadow">
-        <button type="button" class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden" @click="sidebarOpen = true">
+        <button type="button" class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500 md:hidden" @click="sidebarOpen = true">
           <span class="sr-only">Open sidebar</span>
           <MenuAlt2Icon class="h-6 w-6" aria-hidden="true" />
         </button>
@@ -111,7 +111,7 @@ export default {
             </form>
           </div>
           <div class="ml-4 flex items-center md:ml-6">
-            <button type="button" class="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <button type="button" class="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
               <span class="sr-only">View notifications</span>
               <BellIcon class="h-6 w-6" aria-hidden="true" />
             </button>
