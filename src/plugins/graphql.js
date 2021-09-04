@@ -22,10 +22,10 @@ const query = gql`
   }
 `
 
-aplloClient.query({ query })
-  .then((data) => {
-    console.log({ data })
-  })
-  .catch((error)=> {
-    console.log({ error })
-  })
+// aplloClient.query({ query })
+//   .then((data) => {
+//     console.log({ data })
+//   })
+//   .catch((error)=> {
+//     console.log({ error })
+//   })

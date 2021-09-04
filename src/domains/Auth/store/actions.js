@@ -18,7 +18,7 @@ const loadUser = async ({ commit, state }) => {
 
   return AuthService
     .me(token)
-    .then(response => {
+    .then((response) => {
       const user = response.data || {}
       commit(TYPES.SET_USER, user)
 

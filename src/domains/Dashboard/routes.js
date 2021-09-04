@@ -6,7 +6,7 @@ export const routes = [
     path: '/',
     component: Layout01,
     meta: {
-  //    auth: true,
+      // auth: true,
       title: import.meta.env.VITE_APP_NAME
     },
     children: [
