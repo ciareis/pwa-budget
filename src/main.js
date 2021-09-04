@@ -1,8 +1,13 @@
-import { createApp } from 'vue'
 import App from './App.vue'
-import plugins from './plugins/index.js'
-
+App.boot_time = Date.now()
 const app = createApp(App)
-plugins(app)
+import { createApp } from 'vue'
+import router from './router/index.js'
+import store from './store/index.js'
+import plugins from './plugins/index.js'
+import './index.css'
 
-app.mount('#app')
+plugins(app)
+app.use(router(store))
+    .use(store)
+    .mount('#app')
